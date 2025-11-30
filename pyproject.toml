@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cursor-cloud-review"
+name = "cursor-review"
 version = "0.1.0"
 description = "Trigger a Cursor Cloud agent review for the active pull request."
 authors = [{name = "Your Name", email = "your.email@example.com"}]
