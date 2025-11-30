@@ -80,8 +80,10 @@ The tool will generate a `cursor-cloud-analysis.md` file containing the review. 
 - `--head-sha`: Head commit SHA (optional).
 - `--analysis-report`: Path to the markdown report output (default: `cursor-cloud-analysis.md`).
 - `--metadata-out`: Path to the metadata JSON output (default: `cursor-cloud-analysis.json`).
-- `--base-url`: Cursor Cloud API base URL (default: `https://api.cursor.com`).
+- `--base-url`: Cursor Cloud API base URL (default: `https://api.cursor.com`, or via `CURSOR_CLOUD_BASE_URL`).
 - `--api-key`: Cursor Cloud API key (can also be set via `CURSOR_CLOUD_API_KEY`).
+
+**Note:** The tool will prioritize the first 200 changed files for analysis. The agent execution has a timeout of 15 minutes.
 
 ## License
 
